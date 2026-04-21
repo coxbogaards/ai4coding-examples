@@ -10,3 +10,4 @@ The goal of this exercise is to:
 ## Detailed instructions
 
 You may find detailed instructions here: [https://worldbank.github.io/ai4coding/selfstudy/example-1.html](https://worldbank.github.io/ai4coding/selfstudy/example-1.html)
+
