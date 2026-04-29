@@ -15,9 +15,9 @@ set more off
 set matsize 800
 
 * ---- Global paths ----------------------------------------
-global wbg_root  "C:\Users\wb585494\WBG"
-global base_data "$wbg_root\Eduard Bukin - ai4coding-data\mex"
-global out_dir   "$wbg_root\ai4coding-outputs"
+global wbg_root  "C:\Users\wb585494\OneDrive - WBG"
+global base_data "$wbg_root\Eduard Bukin's files - ai4coding-data\mex"
+global out_dir   "C:\Users\wb585494\WBG\ai4coding-outputs" // Can't be in OneDrive
 global data_dir  "$out_dir\data"
 global outfile   "$out_dir\ENIGH_output.xlsx"
 
@@ -1070,4 +1070,4 @@ quietly sum fac_exp if edad>=25 & edad<=60 & hombre==1 & !missing(trabaja)
 local pa_m_16  = r(sum)
 quietly sum fac_exp if trabaja==1 & hombre==0
 local emp_f_16 = r(sum)
-quietly sum fac_exp if edad>=25 & edad<=60 & hombre==0 & !missing(trabajo
+quietly sum fac_exp if edad>=25 & edad<=60 & hombre==0 & !missing(trabajo)
